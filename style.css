@@ -23,3 +23,49 @@ body
     #F0CFA0  /* Warm Sand */
   background-attachment: fixed;
 }
+.landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  padding: 24px;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.name {
+  margin: 0;
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
+}
+
+.menu {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.menu a:hover {
+  background: rgba(0, 0, 0, 0.28);
+}

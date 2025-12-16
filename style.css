@@ -1,11 +1,10 @@
-:root
-{
-  --bg: #0f1115;
-  --card: #151925;
-  --text: #e9ecf1;
-  --muted: #a9b0be;
-  --accent: #7aa2ff;
-  --border: #232a3b;
+:root {
+  --bg: #0f1115;        /* Page background color */
+  --card: #aae1f0;      /* Card / panel background */
+  --text: #e9ecf1;      /* Main text color */
+  --muted: #a9b0be;     /* Secondary / muted text */
+  --accent: #7aa2ff;    /* Links, buttons, highlights */
+  --border: #232a3b;    /* Borders / separators */
 }
 
 * { box-sizing: border-box; }

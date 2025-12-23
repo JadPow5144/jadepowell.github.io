@@ -8,8 +8,13 @@
 body
 {
   margin:0;
-
-  background: linear-gradient(to bottom, blue, orange);
+   min-height; 100vh;
+  background: linear-gradient(
+     to bottom, 
+     #2f5bd3,
+     var(--card);
+     #f2a15f
+  );
 }
 
 /* --card: #aae1f0;      Card / panel background

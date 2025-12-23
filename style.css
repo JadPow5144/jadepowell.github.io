@@ -1,71 +1,20 @@
-:root
-{
-  --card: #aae1f0;      /* Card / panel background */
-  --text: #e9ecf1;      /* Main text color */
-  --muted: #a9b0be;     /* Secondary / muted text */
-  --accent: #7aa2ff;    /* Links, buttons, highlights */
-  --border: #232a3b;    /* Borders / separators */
-}
-
-* { box-sizing: border-box; }
-
-/* page background */
+/* Apply sane box sizing to everything
+   This prevents layout math issues */
+* {
+  box-sizing: border-box;
+  }
+/* Remove default browser margin
+   Gives us a clean canvas */
 body
 {
-  margin: 0;
-  min-height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    #0B1020, /* Midnight Navy */
-    #1E4FA8, /* Cobalt Sky */
-    #9ECBE0, /* Powder Blue */
-    #E89A73, /* Soft Salmon */
-    #F0CFA0  /* Warm Sand */
-  background-attachment: fixed;
-}
-.landing {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 14px;
-  text-align: center;
-  padding: 24px;
+  margin:0;
+
+  background: linear-gradient(to bottom, blue, orange);
 }
 
-.profile {
-  width: 180px;
-  height: 180px;
-  border-radius: 999px;
-  object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.35);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-}
-
-.name {
-  margin: 0;
-  font-size: 48px;
-  color: #ffffff;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
-}
-
-.menu {
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.menu a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px 14px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(0, 0, 0, 0.15);
-}
-
-.menu a:hover {
-  background: rgba(0, 0, 0, 0.28);
-}
+/* --card: #aae1f0;      Card / panel background
+  --text: #e9ecf1;      Main text color
+  --muted: #a9b0be;     Secondary / muted text
+  --accent: #7aa2ff;    Links, buttons, highlights
+  --border: #232a3b;    Borders / separators
+*/

@@ -1,32 +1,13 @@
-/* =========================
-   Global design variables
-   ========================= */
 :root {
-  --card: #aae1f0;      /* Card / panel background */
-  --text: #e9ecf1;      /* Main text color */
-  --muted: #a9b0be;     /* Secondary / muted text */
-  --accent: #7aa2ff;    /* Links, buttons, highlights */
-  --border: #232a3b;    /* Borders / separators */
+  --card: #aae1f0;
 }
 
-/* =========================
-   Global layout sanity
-   ========================= */
 * {
   box-sizing: border-box;
 }
 
-/* =========================
-   Page background
-   ========================= */
 body {
   margin: 0;
   min-height: 100vh;
-
-  background: linear-gradient(
-    to bottom,
-    #2f5bd3,
-    var(--card),
-    #f2a15f
-  );
+  background: hotpink;
 }

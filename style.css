@@ -1,3 +1,7 @@
+body
+{
+   background: red;
+}
 /* Apply sane box sizing to everything
    This prevents layout math issues */
 * {
